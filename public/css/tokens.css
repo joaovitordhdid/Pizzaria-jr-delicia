@@ -1,0 +1,25 @@
+/* Tokens compartilhados. O agente de design pode ajustar os VALORES; os NOMES são o contrato entre cardápio, checkout e painel. */
+:root {
+  /* cor */
+  --jr-bg: #fffdf8;          /* fundo da página */
+  --jr-surface: #ffffff;     /* cartões, modais */
+  --jr-surface-2: #f6efe4;   /* faixas, campos */
+  --jr-ink: #23150e;         /* texto principal */
+  --jr-ink-2: #6b5446;       /* texto secundário */
+  --jr-line: #eadfce;        /* bordas */
+  --jr-tomato: #c8321d;      /* cor de ação principal */
+  --jr-tomato-ink: #ffffff;  /* texto sobre --jr-tomato */
+  --jr-cheese: #f4b223;      /* destaque */
+  --jr-basil: #2f7d4f;       /* sucesso */
+  --jr-warn: #b7791f;
+  --jr-danger: #b42318;
+  /* tipo */
+  --jr-font-display: "Bricolage Grotesque", "Trebuchet MS", system-ui, sans-serif;
+  --jr-font-body: "Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --jr-font-mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  /* forma */
+  --jr-radius: 14px;
+  --jr-radius-sm: 8px;
+  --jr-shadow: 0 10px 30px rgba(35, 21, 14, 0.12);
+  --jr-gutter: max(16px, env(safe-area-inset-left, 0px));
+}
